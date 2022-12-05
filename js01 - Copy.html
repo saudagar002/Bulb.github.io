@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="js01.css">
+
+</head>
+<body>
+
+    <button onclick="bulbon()">on</button>
+
+    <img src="./Bulboff.jpg" height="200px" width="200px" alt="" id="myimg">
+    <button onclick="bulboff()">off</button>
+
+    <button onclick="Bulbdhem()">dhem</button>
+     
+    <button onclick="hidebulb()">hide the bulb</button>
+    <button onclick="showbulb()">show the bulb</button>
+
+    <p class="hello"> hello this is a javascript file </p>
+
+
+<script>
+       function bulbon(){
+
+        document.getElementById('myimg').src="./Bulbon.jpg"
+       }
+
+       function bulboff(){
+
+
+        document.getElementById('myimg').src="./Bulboff.jpg"
+       }
+
+       function hidebulb(){
+
+        document.getElementById('myimg').style.display='none';
+       }
+
+       function showbulb(){
+
+        document.getElementById('myimg').style.display='block';
+       }
+
+       function Bulbdhem(){
+
+        document.getElementById('myimg').src="./Bulbdhem.jpg"
+       }
+
+        
+
+       
+</script>
+</body>
+</html>
